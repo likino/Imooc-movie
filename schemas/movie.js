@@ -1,5 +1,6 @@
 var mongoose = require('mongoose')
 
+// 构建骨架
 var MovieSchema = new mongoose.Schema({
     doctor: String,
     title: String,
